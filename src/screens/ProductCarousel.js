@@ -25,13 +25,13 @@ function ProductCarousel() {
         <Carousel.Item key={product._id}>
           <Link to={`/product/${product._id}`}>
             <Image
-              src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCzhZxes4VGFNxKCwc5dO285gwrgJmTWZAxbdfj8i&s`}
+              src={`/shoes.png`}
               alt={product.name}
               fluid
             />
 
             <Carousel.Caption className="carousel.caption">
-              <h4>Shirt </h4>
+              <h4>White Sneakers </h4>
             </Carousel.Caption>
           </Link>
         </Carousel.Item>
