@@ -20,6 +20,7 @@ import OrderListScreen from "./screens/OrderListScreen";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Testing from "./screens/Testing";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route exact path="/product/:id" element={<ProductScreen />} />
             <Route exact path="/cart" element={<CartScreen />} />
             <Route exact path="/cart/:id" element={<CartScreen />} />
+            <Route exact path="/test" element={<Testing />} />
 
             <Route
               exact
